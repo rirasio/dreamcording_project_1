@@ -1,0 +1,20 @@
+{
+  "name": "dreamcording_project_1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rirasio/dreamcording_project_1.git"
+  },
+  "author": "JIN-HYEONG CHOI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rirasio/dreamcording_project_1/issues"
+  },
+  "homepage": "https://github.com/rirasio/dreamcording_project_1#readme",
+  "dependencies": {}
+}
