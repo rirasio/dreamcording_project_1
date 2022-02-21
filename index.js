@@ -12,6 +12,16 @@ console.log('-----------target folder');
 console.log(folderName);
 
 console.log('-----------file list');
+fs.stat(`${__dirname}/${folderName}/video`)
+.then((states) => {
+  console.log(states);
+})
+.catch(console.error);
+
 fs.readdir('./test')
-.then((array) => { console.log(array) })
+.then((array) => {
+  for (fileName of array) {
+    console.log(fileName);
+  }
+})
 .catch(console.error);
